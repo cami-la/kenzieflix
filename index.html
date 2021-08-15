@@ -6,70 +6,271 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenzieflix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!-- INÍCIO CABEÇALHO-->
     <header class="cabecalho">
-        <!-- INÍCIO LOGO -->
-        <figure class="cabecalho__logo">
-            <img src="./assets/img/logo.png" alt="logo-kenzieflix">
-            <figcaption>Logo Kenzieflix</figcaption>
-        </figure>
-        <!-- FIM LOGO -->
-        <!-- INÍCIO MENU DE NAVEGAÇÃO -->
-        <nav class="cabecalho__menu">
-            <!-- LISTA DE LINKS -->
-            <ul>
-                <li>
-                    <a href="#">Início</a>
-                </li>
-                <li>
-                    <a href="#">Séries</a>
-                </li>
-                <li>
-                    <a href="#">Filmes</a>
-                </li>
-                <li>
-                    <a href="#">Bombando</a>
-                </li>
-                <li>
-                    <a href="#">Minha lista</a>
-                </li>
-                <li>
-                    <a href="#">Assista de novo</a>
-                </li>
-            </ul>
-            <!-- FIM DA LISTA DE LINKS -->
-        </nav>
-        <!-- FIM MENU DE NAVEGAÇÃO -->
-        <!-- INÍCIO MENU DE CONFIGURAÇÃO -->
-        <div class="cabecalho__menuConfiguracao">
-            <ul>
-                <li>
-                    <a href="#">Pesquisa</a>
-                </li>
-                <li>
-                    <a href="#">INFANTIL</a>
-                </li>
-                <li>
-                    <a href="#">Bônus</a>
-                </li>
-                <li>
-                    <a href="#">Notificação</a>
-                </li>
-                <li>
-                    <a href="#">Bônus</a>
-                </li>
-                <li>
-                    <a href="#">Usuário</a>
-                </li>
-            </ul>
+        <div class="container">
+            <!-- INÍCIO LOGO -->
+            <figure class="cabecalho__logo">
+                <img src="./assets/img/logo.png" alt="logo-kenzieflix">
+                <figcaption>Logo Kenzieflix</figcaption>
+            </figure>
+            <!-- FIM LOGO -->
+            <!-- INÍCIO MENU DE NAVEGAÇÃO -->
+            <nav class="cabecalho__menu">
+                <!-- LISTA DE LINKS -->
+                <ul>
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Séries</a>
+                    </li>
+                    <li>
+                        <a href="#">Filmes</a>
+                    </li>
+                    <li>
+                        <a href="#">Bombando</a>
+                    </li>
+                    <li>
+                        <a href="#">Minha lista</a>
+                    </li>
+                    <li>
+                        <a href="#">Assista de novo</a>
+                    </li>
+                </ul>
+                <!-- FIM DA LISTA DE LINKS -->
+            </nav>
+            <!-- FIM MENU DE NAVEGAÇÃO -->
+            <!-- INÍCIO MENU DE CONFIGURAÇÃO -->
+            <div class="cabecalho__menuConfiguracao">
+                <ul>
+                    <li>
+                        <a href="#">Pesquisa</a>
+                    </li>
+                    <li>
+                        <a href="#">INFANTIL</a>
+                    </li>
+                    <li>
+                        <a href="#">Bônus</a>
+                    </li>
+                    <li>
+                        <a href="#">Notificação</a>
+                    </li>
+                    <li>
+                        <a href="#">Bônus</a>
+                    </li>
+                    <li>
+                        <a href="#">Usuário</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- FIM DO MENU DE NAVEGAÇÃO -->
     </header>
     <!-- FIM CABEÇALHO -->
+    <!-- INÍCIO CONTEÚDO PRINCIPAL -->
+    <main>
+        <!-- INICIO SEÇÃO DESTAQUE -->
+        <section class="secaoDestaque">
+            <!-- INÍCIO IMAGEM DESTAQUE -->
+            <figure class="secaoDestaque__imagemDestaque">
+                <img src="./assets/img/destaque.png" alt="Nome do Filme" srcset="">
+                <figcaption>Nome do Filme</figcaption>
+            </figure>
+            <!-- FIM IMAGEM DESTAQUE -->
+            <!-- INÍCIO CONTEÚDO DESTAQUE -->
+            <article class="secaoDestaque__descricaoDestaque">
+                <h1><img src="./assets/img/titulo-destaque.png" alt="Título destaque" srcset=""></h1>
+                <p>Quando um garoto desaparece, a cidade toda participa nas buscas.
+                    Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+            </article>
+            <!-- FIM CONTEÚDO DESTAQUE -->
+            <!-- INÍCIO LINKS DE NAVEGAÇÃO -->
+            <div class="secaoDestaque__navegacaoDestaque">
+                <a href="#">Assistir</a>
+                <a href="#">Mais informações</a>
+            </div>
+            <!-- FIM LINKS DE NAVEGAÇÃO -->
+        </section>
+        <!-- FIM SEÇÃO DESTAQUE -->
+        <!-- INÍCIO SEÇÃO FILMES EM ALTA -->
+        <section class="secaoFilmes">
+            <!-- INÍCIO TÍTULO DA SEÇÃO -->
+            <h2>Em alta</h2>
+            <!-- FIM TÍTULO DA SEÇÃO -->
+            <!-- INÍCIO LISTA DE FILMES -->
+            <ul class="secaoFilmes__listaDeFilmes">
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <!-- FIM LISTA DE FILMES -->
+        </section>
+        <!-- FIM FILMES EM ALTA -->
+        <!-- INÍCIO CONTINUAR ASSISTINDO -->
+        <section class="secaoFilmes secaoFilmes--continuarAssistindo">
+            <!-- INÍCIO TÍTULO DA SEÇÃO -->
+            <h2>Continuar assistindo</h2>
+            <!-- FIM TÍTULO DA SEÇÃO -->
+            <!-- INÍCIO LISTA DE FILMES -->
+            <ul class="secaoFilmes__listaDeFilmes">
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/img/filme1.png" alt="Fime 1" srcset="">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <!-- FIM LISTA DE FILMES -->
+        </section>
+        <!-- FIM CONTIUAR ASSISTINDO -->
+    </main>
+    <!-- FIM CONTEÚDO PRINCIPAL -->
+    <!-- INÍCIO RODAPÉ -->
+    <footer class="rodape">
+        <!-- INÍCIO REDES SOCIAIS -->
+        <div class="rodape__midiasSociais">
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="./assets/img/tt.png" alt="" srcset="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/tt.png" alt="" srcset="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/tt.png" alt="" srcset="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/tt.png" alt="" srcset="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- FIM REDES SOCIAIS -->
+        <!-- INÍCIO MENU NAVEGAÇÃO RODAPÉ -->
+        <nav class="rodape__menuNavegacao">
+            <ul>
+                <li>
+                    <a href="#">Idioma e legendas</a>
+                </li>
+                <li>
+                    <a href="#">Imprensa</a>
+                </li>
+                <li>
+                    <a href="#">Privacidade</a>
+                </li>
+                <li>
+                    <a href="#">Entre em contato</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">Audiodescrição</a>
+                </li>
+                <li>
+                    <a href="#">Relações com investidores</a>
+                </li>
+                <li>
+                    <a href="#">Avisos legais</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">Centro de ajuda</a>
+                </li>
+                <li>
+                    <a href="#">Carreiras</a>
+                </li>
+                <li>
+                    <a href="#">Preferências de cookies</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">Cartão pré-pago</a>
+                </li>
+                <li>
+                    <a href="#">Termos de uso</a>
+                </li>
+                <li>
+                    <a href="#">Informações corporativas</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- FIM MENU DE NAVEGAÇÃO RODAPÉ -->
+        <!-- INÍCIO BOTÃO CÓDIGO DE SERVIÇO-->
+        <a href="#" class="rodape__linkCodigo">Código do serviço</a>
+        <!-- FIM BOTÃO CÓDIGO DE SERVIÇO-->
+        <!-- INÍCIO COPYWRITE-->
+        <p>&copy; 1997-2021 KenzieFlix, Inc. {i-062d573a0ee0992422342}</p>
+        <!-- FIM COPYWRITE-->
+    </footer>
+    <!-- FIM RODAPÉ -->
 </body>
 
 </html>
